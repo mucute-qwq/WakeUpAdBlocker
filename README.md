@@ -1,2 +1,2 @@
-# ModernAndroidTemplate
-A template repository, which is used for creating modern Android project
+# WakeUpAdBlocker
+Simply block the full Ads of WakeUp 课程表 by using modern Xposed APIs

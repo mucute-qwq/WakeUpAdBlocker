@@ -5,7 +5,6 @@ import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension
 plugins {
     id("build-logic.root-project")
     alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.compose) apply false
     alias(libs.plugins.android.library) apply false
 }
 
@@ -28,7 +27,7 @@ fun Project.configureApplicationExtension() {
             create("shared") {
                 storeFile = file("../buildKey.jks")
                 storePassword = "123456"
-                keyAlias = "ModernAndroidTemplate"
+                keyAlias = "WakeUpAdBlocker"
                 keyPassword = "123456"
                 enableV1Signing = true
                 enableV2Signing = true
@@ -69,10 +68,6 @@ fun Project.configureCommonExtension() {
             minSdk {
                 version = release(Versions.minSdkVersion)
             }
-        }
-
-        buildFeatures.apply {
-            compose = true
         }
 
         compileOptions.apply {

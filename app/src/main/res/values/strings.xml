@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">ModernAndroidTemplate</string>
+    <string name="app_name" translatable="false">WakeUpAdBlocker</string>
+    <string name="app_description">Simply block the full Ads of WakeUp 课程表 (v6.3.0)</string>
 </resources>

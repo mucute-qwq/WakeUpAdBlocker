@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_description">轻松屏蔽 WakeUp 课程表的所有广告 (v6.3.0)</string>
+</resources>

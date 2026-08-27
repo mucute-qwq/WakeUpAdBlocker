@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ModernAndroidTemplate"
+rootProject.name = "WakeUpAdBlocker"
 include(":app")
-include(":shared")

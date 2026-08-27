@@ -1,12 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.compose)
 }
 
 android {
-    namespace = "io.github.mucute.qwq.modernandroidtemplate"
+    namespace = "io.github.mucute.qwq.wakeupadblocker"
 }
 
 dependencies {
-    implementation(project(":shared"))
+    compileOnly(libs.xposed.api)
 }
